@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   
   },
   hero: {
-    backgroundImage:  'linear-gradient(rgba(0,0,0,0.5)'
+    backgroundImage: 'linear-gradient(rgba(0,0,0,0.5)'
   }
 });
 
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-       <AppBar className={classes.AppBar} position="static">
+       <AppBar className={classes.AppBar} position="static" color="default">
         <Toolbar>
           <Typography variant="h6" color='primary' >
             Blog
